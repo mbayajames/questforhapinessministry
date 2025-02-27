@@ -1,7 +1,7 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import SchoolNavbar from "./components/SchoolNavbar";
-import Aboutus from "./components/Aboutus";
+import SchoolNavbar from "./components/SchoolNavbar/SchoolNavbar";
+import Aboutus from "./components/Aboutus/Aboutus";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
